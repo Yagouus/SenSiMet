@@ -1,0 +1,10 @@
+version: '2'
+services:
+    frontend:
+        image: yagouus/sensimet-frontend
+        ports:
+            - 80:80
+    backend:
+        image: yagouus/sensimet-backend
+        ports:
+            - 8080:8080
